@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class Lab1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//create input Scanner object
+		
+		
+		Scanner input =  new Scanner (System.in) ;
+		
+		String last_name;
+		String first_name;
+		String full_name;
+		String adjective;
+		String number;
+		String place;
+		
+		
+		System.out.println("Enter your last name: ") ;
+		String last_name1 = input.nextLine() ;
+		
+		System.out.println("Enter your first name: ") ;
+		String first_name1 = input.nextLine() ;
+		
+		full_name = first_name1 + last_name1 ;
+		System.out.println("You are "  + first_name1 +" "+ last_name1 + "!") ;
+		
+		
+		System.out.println("Enter an adjective:");
+		String adjective1 = input.nextLine() ; 
+		
+		System.out.println("Enter an integer number:");
+		String number1 = input.nextLine();
+		
+		System.out.println("Enter a place:");
+		String place1 = input.nextLine();
+		
+		
+		//final
+		
+		System.out.println(first_name1.toUpperCase() +" "+ last_name1.toUpperCase() + " says,there are " + number1 +" crazy people in the " + place1);
+		
+		}
+
+}
