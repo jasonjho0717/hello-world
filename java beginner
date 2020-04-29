@@ -36,6 +36,10 @@ public class Lab1 {
 		
 		System.out.println("Enter a place:");
 		String place1 = input.nextLine();
+
+
+		System.out.println("HI");
+		String last_name1 = input.nextLine() ;
 		
 		
 		//final
